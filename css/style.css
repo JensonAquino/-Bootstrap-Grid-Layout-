@@ -4,6 +4,7 @@ img{
 [class^="container"] {
     border: 1px solid violet;
     min-height: 200px;
+    margin-top: 40px;
 }
 [class^="row"]{
     background-color: aqua;
