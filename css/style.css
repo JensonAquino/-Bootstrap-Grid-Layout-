@@ -1,17 +1,68 @@
-img{
+img {
     width: 100%;
 }
+
 [class^="container"] {
-    border: 1px solid violet;
     min-height: 200px;
     margin-top: 40px;
 }
-[class^="row"]{
-    background-color: aqua;
-    border: 1px solid red;
+
+[class^="row"] {
     min-height: 200px;
 }
-[class^="col"]{
-    border: 1px solid black;
+
+[class^="col"] {
     min-height: 200px;
+    padding-top: 20px;
+}
+
+/* colori */
+/* 1 esempio */
+.lg-color {
+    background-color: #f8f9fa;
+}
+
+.dg-color {
+    background-color: #6c757d;
+}
+
+/* 2 esempio */
+.blue-color {
+    background-color: #0d6efd;
+}
+
+.green-color {
+    background-color: #198754;
+}
+
+.red-color {
+    background-color: #dc3545;
+}
+
+/* 3 esempio */
+.l-blue-color {
+    background-color: #0dcaf0;
+}
+
+.yellow-color {
+    background-color: #ffc107;
+}
+
+.black-color {
+    background-color: #212529;
+}
+
+
+/* txt-color */
+
+.w-color {
+    color: white;
+}
+
+.b-color {
+    color: black;
+}
+
+.g-color {
+    color: grey;
 }
